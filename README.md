@@ -1,6 +1,8 @@
 # PowerBI_Data_Analysis
 Rapport Power BI - Analyse des Parts de Marché de Van Ardsel
 
+![Interactive_PowerBIreport](PowerBI_Data_Analysis/PowerBIReportMA.gif)
+
 ## Description du Projet
 Ce repository présente un **rapport Power BI** qui met en évidence les parts de marché de l'entreprise **Van Ardsel** à l'échelle mondiale, en comparaison avec ses principaux concurrents. Le rapport offre des visualisations interactives et des analyses chiffrées pour mieux comprendre la performance de l'entreprise.
 
@@ -37,17 +39,18 @@ Ce repository présente un **rapport Power BI** qui met en évidence les parts d
    - Capture d'écran du modèle de données montrant les tables et leurs relations.
 
 ## Aperçu des Pages du Rapport
-1. **Page Principale** :
-   - Visualisation globale des parts de marché et des KPIs principaux.
-   - Exemple de KPI : **Croissance des ventes (%)** et **Ventes totales**.
-
-   ![Aperçu Page Principale](./path/to/screenshot1.png)
-
-2. **Page Par Fabricant** :
+2. **Page Principale** :
    - Détail des parts de marché pour Van Ardsel face à ses concurrents principaux.
    - Graphiques interactifs pour comparer les revenus par fabricant.
 
-   ![Aperçu Page Fabricant](./path/to/screenshot2.png)
+   ![Aperçu Page Fabricant](PowerBI_Data_Analysis/image.png)
+
+ 1. **Page Details de Van Ardsel** :
+   - Visualisation globale des parts de marché et des KPIs principaux.
+   - Exemple de KPI : **Croissance des ventes (%)** et **Ventes totales**.
+
+   ![Aperçu Page Principale](PowerBI_Data_Analysis/image.png)
+
 
 ## Détails Techniques
 - **Power Query** : Normalisation et transformation des données.
@@ -60,7 +63,7 @@ Ce repository présente un **rapport Power BI** qui met en évidence les parts d
    ```bash
    git clone https://github.com/seventeenseven/PowerBI_Data_Analysis.git
    ```
-- Ouvrir le fichier **Market_analysis.pbix** dans Power BI Desktop.
+- Ouvrir le fichier **Market_analysis_report.pbix** dans Power BI Desktop.
 
 ## Conclusion
 Ce rapport met en évidence les performances de Van Ardsel dans un contexte concurrentiel global. Les visualisations interactives et les mesures calculées permettent d'obtenir des insights stratégiques sur les parts de marché et la croissance des ventes.
