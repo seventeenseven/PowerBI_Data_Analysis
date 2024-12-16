@@ -1,14 +1,14 @@
 # PowerBI_Data_Analysis
-Rapport Power BI - Analyse des Parts de Marché de Van Ardsel
+Rapport Power BI - Analyse des Parts de Marché de Van Arsdel
 
 ![Présentation du rapport Power BI](./assets/PowerBIReportMA.gif)
 
 
 ## Description du Projet
-Ce repository présente un **rapport Power BI** qui met en évidence les parts de marché de l'entreprise **Van Ardsel** à l'échelle mondiale, en comparaison avec ses principaux concurrents. Le rapport offre des visualisations interactives et des analyses chiffrées pour mieux comprendre la performance de l'entreprise.
+Ce repository présente un **rapport Power BI** qui met en évidence les parts de marché de l'entreprise **Van Arsdel** à l'échelle mondiale, en comparaison avec ses principaux concurrents. Le rapport offre des visualisations interactives et des analyses chiffrées pour mieux comprendre la performance de l'entreprise.
 
 ## Objectifs de l'Analyse
-- **Visualiser les parts de marché** : Comparer les performances de Van Ardsel avec ses concurrents.
+- **Visualiser les parts de marché** : Comparer les performances de Van Arsdel avec ses concurrents.
 - **Explorer la croissance** : Identifier les régions et périodes de croissance.
 - **Fournir des KPIs clés** : Calculer et afficher les mesures les plus pertinentes pour l'entreprise.
 
@@ -27,7 +27,7 @@ Ce repository présente un **rapport Power BI** qui met en évidence les parts d
          ```
          VanArsdel Sales = CALCULATE(SUM(Sales[Revenue]), Manufacturer[ManufacturerID] = 7)
          ```
-         Cette mesure extrait les ventes spécifiques à Van Ardsel pour faciliter la comparaison avec les concurrents.
+         Cette mesure extrait les ventes spécifiques de Van Arsdel pour faciliter la comparaison avec les concurrents.
 
 2. **Visualisations Interactives**
    - **Page Principale** : Aperçu global des parts de marché et des KPIs clés.
@@ -37,7 +37,7 @@ Ce repository présente un **rapport Power BI** qui met en évidence les parts d
    - **Filtres et Slicers** : Possibilité de naviguer dans les données en filtrant par fabricant, région ou période.
 
 3. **Schema de Données**
-   - Capture d'écran du modèle de données montrant les tables et leurs relations.
+   ![Schema de données](./assets/schema_donnees.png)
 
 ## Aperçu des Pages du Rapport
 1. **Page Principale** :
@@ -63,7 +63,7 @@ Ce repository présente un **rapport Power BI** qui met en évidence les parts d
 ## Prérequis
 - Installer **Power BI Desktop** : [Lien de téléchargement](https://powerbi.microsoft.com/fr-fr/downloads/)
 - Télécharger le rapport Power BI ici :  
-   [VanArdsel_MarketReport.pbix]((https://we.tl/t-WeGTJ80I0q))
+   [VanArdsel_MarketReport.pbix](https://we.tl/t-WeGTJ80I0q)
 - Ouvrir le fichier **Market_analysis_report.pbix** dans Power BI Desktop.
 
 ## Conclusion
